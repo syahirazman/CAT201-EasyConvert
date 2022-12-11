@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Tisa", sans-serif;
+}
+
+body {
+    background: url("bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: black;
+}
+
+.content h1 {
+    font-size: 100px;
+    margin-top: 80px;
+    color: firebrick;
+}
+
+.content p {
+    margin: 20px auto;
+    font-weight: 150;
+    line-height: 25px;
+}
+
+button {
+    width:190px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: larger;
+    border: 2px solid transparent;
+    background: transparent;
+    color: firebrick;
+    cursor: pointer;
+    transition-duration: 0.45s;
+}
+button:hover {
+    background-color: firebrick;
+    color: white;
+}
+
+.browse {
+    width: 180px;
+    position: relative;
+}
+.browse:after {
+    content: attr(value);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 48%;
+    background: firebrick;
+    color: white;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+a:link {
+    color: darkblue;
+    font-weight: bold;
+}
+
+a:hover {
+    color: firebrick;
+}

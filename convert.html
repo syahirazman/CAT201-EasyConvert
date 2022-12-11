@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tisa">
+    <title>EasyConvert | Convert PDF to Text</title>
+</head>
+<body>
+<div class="content">
+    <h1>EasyConvert</h1>
+    <p>A free online PDF-to-TXT file converter.</p>
+    <br><br><br><br><br><br><br>
+    <div class="center">
+        <h2>Upload successful!</h2>
+        <p>Click button below to convert PDF.</p><br>
+        <?p include convert.php ?>
+        <form action="convert.php" method="post" enctype="multipart/form-data">
+            <button type="submit" value="Convert" name="submit">Convert PDF</button>
+        </form>
+        <br>
+        <form action="index.html" method="post" enctype="multipart/form-data">
+            <button type="submit" value="Back" name="submit">Back</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
