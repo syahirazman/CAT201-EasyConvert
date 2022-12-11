@@ -7,3 +7,4 @@ Apache PDFBox is an open-source library written in Java. It allows the creation 
 HTML, CSS - create the frontend
 Java (PDFBox) - convert extract text from a PDF file to a text file.
 PHP - upload PDF file to the website with some input validation concerning the file size, type, and corrupt/error.
+The website is run on a Docker Container.
